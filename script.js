@@ -45,7 +45,7 @@ function calcBMI() {
      };
 };
 
-
+//this function resets the calculator fields and clears the results
 function resetBMI() {
      document.getElementById('testing').innerHTML = "Results will be displayed here.";
      document.getElementById("testing").style.backgroundColor = '';
@@ -55,8 +55,8 @@ function resetBMI() {
      document.getElementById('imgBMI2').src = "";
 };
 
-function addImg() {
-     var img1 = document.createElement('img1');
-            img.src = './assets/bmi.img';
-            document.getElementById('body').appendChild(img1);
-};
+// function addImg() {
+//      var img1 = document.createElement('img1');
+//             img.src = './assets/bmi.img';
+//             document.getElementById('body').appendChild(img1);
+// };
