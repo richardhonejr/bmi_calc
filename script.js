@@ -23,23 +23,30 @@ function calcBMI() {
           document.getElementById("testing").innerHTML = 'Your BMI is ' + bmi + ' kg/m2 ' + ' and your body type is Obese.';
           document.getElementById("testing").style.backgroundColor = '#F36D28';
           document.getElementById("testing").style.color = 'white';
+          document.getElementById("testing").class = 'px-3';
           document.getElementById('imgBMI').src = "./assets/obese.png";
           document.getElementById('imgBMI2').src = "./assets/bmi.png";
      } else if (bmi <= 18.5) {
           document.getElementById("testing").innerHTML = 'Your BMI is ' + bmi + ' kg/m2 ' + ' and your body type is Underweight.';
           document.getElementById("testing").style.backgroundColor = '#59C2AD';
           document.getElementById("testing").style.color = 'white';
+          document.getElementById("testing").class = 'px-3';
           document.getElementById('imgBMI').src = "./assets/underweight.png";
+          document.getElementById('imgBMI2').src = "./assets/bmi.png";
      } else if (bmi <= 24.9) {
           document.getElementById("testing").innerHTML = 'Your BMI is ' + bmi + ' kg/m2 ' + ' and your body type is Normal weight.';
           document.getElementById("testing").style.backgroundColor = '#64BA46';
           document.getElementById("testing").style.color = 'white';
+          document.getElementById("testing").class = 'px-3';
           document.getElementById('imgBMI').src = "./assets/normalweight.png";
+          document.getElementById('imgBMI2').src = "./assets/bmi.png";
      } else if (bmi <30){
           document.getElementById("testing").innerHTML = 'Your BMI is ' + bmi + ' kg/m2 ' + ' and your body type is Overweight.';
           document.getElementById("testing").style.backgroundColor = '#FBAD35';
           document.getElementById("testing").style.color = 'white';
+          document.getElementById("testing").class = 'px-3';
           document.getElementById('imgBMI').src = "./assets/overweight.png";
+          document.getElementById('imgBMI2').src = "./assets/bmi.png";
      } else {
           document.getElementById("testing").innerHTML = 'Your BMI cannot be determined. Please click Reset below.';
      };
